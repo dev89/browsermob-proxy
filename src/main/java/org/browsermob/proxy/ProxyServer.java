@@ -210,6 +210,10 @@ public class ProxyServer {
     public void waitForNetworkTrafficToStop(final long quietPeriodInMs, long timeoutInMs) {
         // todo: need to implement
     }
+    
+    public void trafficStopped(final long quietPeriodInMs, long timeoutInMs) {
+        // todo: need to implement
+    }
 
     public void setOptions(Map<String, String> options) {
         if (options.containsKey("httpProxy")) {
